@@ -1,13 +1,12 @@
-# 🤝 Collaborating AI Assistants — Multi-Agent Coder/Tester Team
+# 🤝 Collaborating AI Assistants - Multi-Agent Coder/Tester Team
 
-A beginner-friendly, portfolio-ready project where two AI agents work
+A project where two AI agents work
 together like a real dev team: a **Coder** writes a solution, a
 **Tester** writes and runs tests against it, and if it fails, the
-Tester reports the bug back so the Coder can fix it — automatically,
+Tester reports the bug back so the Coder can fix it - automatically,
 in a loop. A **human approval gate** stops the system from ever running
 AI-written code without your permission.
 
-Built for **Project 2** of the Beginner AI Engineer Portfolio Roadmap.
 
 ---
 
@@ -18,13 +17,13 @@ Built for **Project 2** of the Beginner AI Engineer Portfolio Roadmap.
 | **Team Communication** | Coder and Tester agents pass code, tests, and bug reports back and forth |
 | **Ask the Human (HITL)** | Pauses before running any code and waits for you to approve it |
 | **Self-Fixing Loop** | If tests fail, the Tester diagnoses the bug and the Coder retries — up to a set number of attempts |
-| **Sandboxed execution** | All AI-generated code runs inside an isolated, network-disabled Docker container — never directly on your machine |
+| **Sandboxed execution** | All AI-generated code runs inside an isolated, network-disabled Docker container - never directly on your machine |
 
 ## 🧱 Tech Stack
 
-- **LangGraph** — orchestrates the multi-agent workflow as a state machine
-- **Groq API (free tier)** — powers both the Coder and Tester agents, very fast
-- **Docker** — safely executes AI-generated code in an isolated sandbox
+- **LangGraph** - orchestrates the multi-agent workflow as a state machine
+- **Groq API (free tier)** - powers both the Coder and Tester agents, very fast
+- **Docker** - safely executes AI-generated code in an isolated sandbox
 
 ## 📁 Project Structure
 
@@ -102,7 +101,7 @@ python -m src.main
 
 You'll see the Coder write code, then a prompt asking you to approve
 running it. Type `y` and watch the Tester write tests, run them in
-Docker, and — if they fail — explain the bug so the Coder can fix it.
+Docker, and - if they fail - explain the bug so the Coder can fix it.
 
 ---
 
@@ -130,7 +129,7 @@ git remote add origin https://github.com/<your-username>/multi-agent-coder-teste
 git push -u origin main
 ```
 
-> ⚠️ **Never commit your `.env` file** — it contains your real API key.
+> ⚠️ **Never commit your `.env` file** - it contains your real API key.
 > The included `.gitignore` already excludes it.
 
 ### Day-to-day workflow
@@ -164,4 +163,4 @@ git push
 
 ## 📝 License
 
-MIT — feel free to use this as a learning project or portfolio piece.
+MIT - feel free to use this as a learning project or portfolio piece.
