@@ -1,0 +1,5 @@
+langgraph==0.2.53
+langchain-core==0.3.21
+langchain-groq==0.2.1
+python-dotenv==1.0.1
+rich==13.9.4

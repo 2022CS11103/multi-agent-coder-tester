@@ -1,0 +1,16 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Generated code from agent runs (not meant to be version controlled)
+generated/*
+!generated/.gitkeep
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
